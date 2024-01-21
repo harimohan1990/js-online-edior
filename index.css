@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+#editor {
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#output {
+  flex: 1;
+  overflow: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  
+  #editor {
+      font-size: 18px;
+  }
+
+  #output {
+      font-size: 16px;
+  }
+
+  button {
+      font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  #editor {
+      font-size: 20px;
+  }
+
+  #output {
+      font-size: 18px;
+  }
+
+  button {
+      font-size: 20px;
+  }
+}
